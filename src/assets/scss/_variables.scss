@@ -1,0 +1,47 @@
+$black: #000000;
+// $whiteLight: #eeeeee;
+$whiteLight: #fff;
+$whiteMedium: #f9fafb;
+$whiteHard: #d8d8d8;
+
+$white: #fff;
+$blackLight: #1f2937;
+$blackMedium: #111827;
+$blackHard: #374151;
+
+// priority colors
+$low: #a5a5a5;
+$medium: #ff915e;
+$high: #f76868;
+
+// tags colors
+$aqua: #002ec4;
+$red: #ac0000;
+$blue: #2563eb;
+$orange: #f97316;
+$green: #22c55e;
+$purple: #a855f7;
+
+:root {
+	$bg-color: $whiteMedium;
+	$text-color: $black;
+	$bg-second-color: $whiteLight;
+	$bg-third-color: $whiteHard;
+
+	--bg-color: #{$bg-color};
+	--text-color: #{$text-color};
+	--bg-second-color: #{$bg-second-color};
+	--bg-third-color: #{$bg-third-color};
+}
+
+[data-theme="dark"] {
+	$bg-color: $blackMedium;
+	$text-color: $white;
+	$bg-second-color: $blackLight;
+	$bg-third-color: $blackHard;
+
+	--bg-color: #{$bg-color};
+	--text-color: #{$text-color};
+	--bg-second-color: #{$bg-second-color};
+	--bg-third-color: #{$bg-third-color};
+}
